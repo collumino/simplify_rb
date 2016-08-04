@@ -19,7 +19,6 @@ module SimplifyRb
       end
 
       DouglasPeuckerSimplifier.new.process(points, sq_tolerance)
-        .map(&:to_h)
     end
   end
 end
